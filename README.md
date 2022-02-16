@@ -5,6 +5,8 @@
 > Math Magicians is a fun app for lovers of Mathematics. The app allows you to do simple calculations. 
 Not only that, it also provides you access to specially curated math related quotes to keep you inspired.
 
+## App Screenshot
+![](https://github.com/BenjaminSemah/math-magicians/blob/dev/appScreenshot.png)
 
 ## Built With
 
