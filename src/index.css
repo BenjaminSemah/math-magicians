@@ -67,6 +67,8 @@ body {
 
 .inside--home {
   padding: 30px 3%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .inside--home h1 {
@@ -79,7 +81,8 @@ body {
 
 .inside--calculator {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 25px;
   align-items: flex-start;
   padding: 50px 0;
 }
@@ -91,6 +94,8 @@ body {
 
 .inside--quote {
   padding: 10%;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .inside--quote q {
