@@ -7,9 +7,9 @@ export default function Navbar() {
       <div className="inside--nav">
         <h2>Math Magicians</h2>
         <nav className="nav--links">
-          <Link to="/home">Home </Link>
-          <Link to="/calculator">Calculator </Link>
-          <Link to="/quote">Quote</Link>
+          <Link className="nav--item bod" to="/home">Home </Link>
+          <Link className="nav--item bod" to="/calculator">Calculator </Link>
+          <Link className="nav--item" to="/quote">Quote</Link>
         </nav>
       </div>
       <Outlet />
