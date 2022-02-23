@@ -4,6 +4,7 @@ import App from '../App';
 import Home from '../components/Home';
 import Quote from '../components/Quote';
 import Calculator from '../components/Calculator';
+import Navbar from '../components/Navbar';
 
 it('App renders correctly', () => {
   const tree = renderer.create(<App />).toJSON();

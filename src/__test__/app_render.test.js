@@ -51,21 +51,34 @@ describe('App functions properly', () => {
     userEvent.click(screen.getByRole('button', { name: /=/i }));
     expect(screen.getByText(/\-2/i)).toBeInTheDocument();
   });
+
+  test('Calculator division works properly', () => {
+    render(<Calculator />);
+    userEvent.click(screen.getByRole('button', { name: /8/i }));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
+    userEvent.click(screen.queryByText('÷'));
+    userEvent.click(screen.getByRole('button', { name: /4/i }));
+    userEvent.click(screen.getByRole('button', { name: /=/i }));
+    expect(screen.getByText(/\-2/i)).toBeInTheDocument();
+  });
+
+  test('Calculator Multiplication works properly', () => {
+    render(<Calculator />);
+    userEvent.click(screen.getByRole('button', { name: /2/i }));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
+    userEvent.click(screen.getByRole('button', {  name: /x/i}));
+    userEvent.click(screen.getByRole('button', { name: /3/i }));
+    userEvent.click(screen.getByRole('button', { name: /=/i }));
+    expect(screen.getByText(/\-6/i)).toBeInTheDocument();
+  });
+
+  test('Calculator Modulus works properly', () => {
+    render(<Calculator />);
+    userEvent.click(screen.getByRole('button', { name: /2/i }));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
+    userEvent.click(screen.getByRole('button', {  name: /%/i}));
+    userEvent.click(screen.getByRole('button', { name: /3/i }));
+    userEvent.click(screen.getByRole('button', { name: /=/i }));
+    expect(screen.getByText(/\-2/i)).toBeInTheDocument();
+  });
 });
-
-// describe("App", () => {
-//   test("renders App component", () => {
-//     render(<App />);
-
-//     screen.getByRole('heading', {  name: /math magicians/i})
-//     expect(screen.getByRole('heading', {  name: /math magicians/i}))
-//   })
-// })
-
-// test("this app does something", () => {
-//   userEvent.click(screen.getByRole('button', {  name: /1/i}), '1')
-
-//   screen.debug();
-// })
-
-// getByRole('button', {name: /VALUE/i})
