@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -55,7 +56,7 @@ describe('App functions properly', () => {
   test('Calculator division works properly', () => {
     render(<Calculator />);
     userEvent.click(screen.getByRole('button', { name: /8/i }));
-    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i }));
     userEvent.click(screen.queryByText('÷'));
     userEvent.click(screen.getByRole('button', { name: /4/i }));
     userEvent.click(screen.getByRole('button', { name: /=/i }));
@@ -65,8 +66,8 @@ describe('App functions properly', () => {
   test('Calculator Multiplication works properly', () => {
     render(<Calculator />);
     userEvent.click(screen.getByRole('button', { name: /2/i }));
-    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
-    userEvent.click(screen.getByRole('button', {  name: /x/i}));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i }));
+    userEvent.click(screen.getByRole('button', { name: /x/i }));
     userEvent.click(screen.getByRole('button', { name: /3/i }));
     userEvent.click(screen.getByRole('button', { name: /=/i }));
     expect(screen.getByText(/\-6/i)).toBeInTheDocument();
@@ -75,8 +76,8 @@ describe('App functions properly', () => {
   test('Calculator Modulus works properly', () => {
     render(<Calculator />);
     userEvent.click(screen.getByRole('button', { name: /2/i }));
-    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i}));
-    userEvent.click(screen.getByRole('button', {  name: /%/i}));
+    userEvent.click(screen.getByRole('button', { name: /\+\/\-/i }));
+    userEvent.click(screen.getByRole('button', { name: /%/i }));
     userEvent.click(screen.getByRole('button', { name: /3/i }));
     userEvent.click(screen.getByRole('button', { name: /=/i }));
     expect(screen.getByText(/\-2/i)).toBeInTheDocument();
