@@ -39,6 +39,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [Benjamin Semah](https://twitter.com/BenjaminSemah)
 - LinkedIn: [Benjamin Semah](https://www.linkedin.com/in/benjaminsemah)
 
+👤 **Butler Shimaluwani**
+
+- GitHub: [@ButlerMuwo](https://github.com/butlermuwo)
+- Twitter: [@ButlerMuwo](https://twitter.com/ButlerMuwo)
+- LinkedIn: [@ButlerMuwo](https://www.linkedin.com/in/butler-shimaluwani-41a680159/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

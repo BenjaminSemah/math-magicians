@@ -21,10 +21,7 @@ export default function Home() {
         incorporating math in enjoyable activities and
         by having a positive attitude towards it.
       </p>
-      <a href="https://www.goalcast.com/math-quotes/">
-        <span className="source--span">Source: </span>
-        Goalcast.com
-      </a>
+      <p>Source: Goalcast.com</p>
     </div>
   );
 }
