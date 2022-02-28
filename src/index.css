@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.main--container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  width: 350px;
+  margin: 0;
+  background-color: grey;
+}
+
+.display--panel {
+  grid-column: 1 /-1;
+  background-color: gray;
+  padding: 20px;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+}
+
+.num0 {
+  grid-column: 1 / 3;
+}
+
+.main--container button {
+  padding: 25px 30px;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+  color: #464141;
+}
+
+.calc {
+  background-color: orange;
+}
+
+.inside--nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.inside--nav h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.nav--item {
+  font-size: 1.3em;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.bod {
+  border-right: solid 1px;
+  padding-right: 5px;
+}
+
+.inside--home {
+  padding: 30px 3%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inside--home h1 {
+  font-size: 1.5em;
+}
+
+.inside--home p {
+  text-align: justify;
+}
+
+.inside--calculator {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.inside--calculator p {
+  font-size: 2em;
+  margin: 0;
+}
+
+.inside--quote {
+  padding: 10%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.inside--quote q {
+  font-size: 2em;
+  text-align: justify;
+}
+
+.inside--quote p {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 10px;
+}

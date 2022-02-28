@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Array [
+  <div
+    className="topbar"
+  >
+    <div
+      className="inside--nav"
+    >
+      <h2>
+        Math Magicians
+      </h2>
+      <nav
+        className="nav--links"
+      >
+        <a
+          className="nav--item bod"
+          href="/"
+          onClick={[Function]}
+        >
+          Home 
+        </a>
+        <a
+          className="nav--item bod"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator 
+        </a>
+        <a
+          className="nav--item"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </nav>
+    </div>
+  </div>,
+  <div
+    className="inside--home"
+  >
+    <h1>
+      Wecome! Cheers to having fun with Maths!
+    </h1>
+    <p>
+      Having some math knowledge is always useful. If you think about it, most of us use it on a daily basis — whether we are measuring something, sorting, noticing patterns, making comparisons or recognizing shapes. Of course, we do not necessarily use complex formulas, but we do need some basic math skills for all these activities.
+    </p>
+    <p>
+      When it comes to children, it is crucial to teach them about the importance of problem solving. We all know that for some kids there are few words scarier than “math”. But we can influence their thinking by incorporating math in enjoyable activities and by having a positive attitude towards it.
+    </p>
+    <p>
+      Source: Goalcast.com
+    </p>
+  </div>,
+]
+`;
+
+exports[`Calculator renders correctly 1`] = `
+<div
+  className="inside--calculator"
+>
+  <p>
+    Let's do some math!
+  </p>
+  <div
+    className="main--container"
+  >
+    <div
+      className="display--panel"
+    >
+      0
+    </div>
+    <button
+      className="ac--btn grey"
+      id="AC"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="add-sub grey"
+      id="+/-"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="modular grey"
+      id="%"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="divi calc"
+      id="÷"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="num7 grey"
+      id="7"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="num8 grey"
+      id="8"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="num9 grey"
+      id="9"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="times calc"
+      id="x"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="num4 grey"
+      id="4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="num5 grey"
+      id="5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="num6 grey"
+      id="6"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="minus calc"
+      id="-"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="num1 grey"
+      id="1"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="num2 grey"
+      id="2"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="num3 grey"
+      id="3"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="plus calc"
+      id="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="num0 grey"
+      id="0"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="point grey"
+      id="."
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="equal calc"
+      id="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Home renders correctly 1`] = `
+<div
+  className="inside--home"
+>
+  <h1>
+    Wecome! Cheers to having fun with Maths!
+  </h1>
+  <p>
+    Having some math knowledge is always useful. If you think about it, most of us use it on a daily basis — whether we are measuring something, sorting, noticing patterns, making comparisons or recognizing shapes. Of course, we do not necessarily use complex formulas, but we do need some basic math skills for all these activities.
+  </p>
+  <p>
+    When it comes to children, it is crucial to teach them about the importance of problem solving. We all know that for some kids there are few words scarier than “math”. But we can influence their thinking by incorporating math in enjoyable activities and by having a positive attitude towards it.
+  </p>
+  <p>
+    Source: Goalcast.com
+  </p>
+</div>
+`;
+
+exports[`Quote renders correctly 1`] = `
+<div
+  className="inside--quote"
+>
+  <q>
+    A man is like a fraction whose numerator is what he is and whose denominator is what he thinks of himself. The larger the denominator, the smaller the fraction.
+  </q>
+  <p>
+    - Leo Tolstoy
+  </p>
+</div>
+`;
