@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/MathMagician-blueviolet)
 
 # Math Magicians
 
@@ -13,10 +13,12 @@ Not only that, it also provides you access to specially curated math related quo
 - ReactJS
 - CSS
 - Babel
+- Visual Studio Code (IDE)
+- Git/GitHub (Version Control)
 
-<!-- ## Live Demo (if available) -->
+## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Link to Live Version](https://magicwithmath.netlify.app/)
 
 
 ## Getting Started
