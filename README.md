@@ -27,8 +27,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### To get a local copy, run the following steps:
 
-- Clone the repository with `git@github.com:BenjaminSemah/leaderboard.git`
-- Navigate to the folder `cd leaderboard`
+- Clone the repository with `git@github.com:BenjaminSemah/math-magicians.git`
+- Navigate to the folder `cd math-magicians`
 - Open the project with your code editor
 - Run `npm install` to install all dependencies
 - Run `npm start` and go to `http://localhost:3000//` to launch the server.
